@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>MunDay | Inicio</title>
+        <link rel="icon" href="imagenes/logo.jpg">
+</head>
+<body>
+    <header>
+        <a ref="#" class="logo">MunDay</a>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio </a></li>
+                <li><a href="https://www.starbucks.com.mx/">Nuestra Tienda</a></li>
+                <li><a href="register.html">Registrate</a></li>
+                <li><a href="sesion.html">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="zona1"></section>
+    <footer>
+        <div class="social-icons-container">
+            <a href="https://es-la.facebook.com/" class="social-icon" ></a>
+            <a href="https://www.instagram.com/" class="social-icon" ></a>
+            <a href="https://twitter.com/?lang=es" class="social-icon" ></a>
+            <a href="https://www.tiktok.com/es/" class="social-icon" ></a>
+        </div>
+        <span class="copyright">&copy;2022. MunDay. Todos los derechos reservados.</span>
+    </footer>
+    <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("abajo", window.scrollY>0);
+            })
+    </script>
+</body>
+</html>
